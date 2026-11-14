@@ -1,0 +1,106 @@
+{
+  "settings": {
+    "appName": "Earn BD",
+    "botUsername": "EarnBDBot",
+    "supportUsername": "zerox6t9",
+    "monetagZoneId": "11148173",
+    "perAdEarning": 0.005,
+    "dailyLimit": 10,
+    "referralBonus": 0.05,
+    "dailyFreeCards": 1,
+    "spinCard1Price": 0.5,
+    "spinCard5Price": 2.0,
+    "spinCard10Price": 3.5,
+    "spinRewards": [0.01, 0.05, 0.02, 0.10, 0.01, 0.50, 0.03, 1.00],
+    "checkinRewards": [0.01, 0.02, 0.03, 0.05, 0.08, 0.12, 0.20],
+    "vipSilver": 10,
+    "vipGold": 50,
+    "vipPlatinum": 200,
+    "maintenance": false
+  },
+
+  "adminAuth": {
+    "password": "admin123"
+  },
+
+  "withdrawMethods": {
+    "bkash": {
+      "key": "bkash",
+      "name": "bKash",
+      "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Bkash_logo.svg/240px-Bkash_logo.svg.png",
+      "accountLabel": "bKash নম্বর",
+      "accountPlaceholder": "01XXXXXXXXX",
+      "minWithdraw": 5,
+      "maxWithdraw": 0,
+      "processingTime": "১-৩ কার্যদিবস",
+      "instructions": "Personal bKash নম্বরে পেমেন্ট পাঠানো হবে।",
+      "active": true,
+      "order": 1
+    },
+    "nagad": {
+      "key": "nagad",
+      "name": "Nagad",
+      "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Nagad_Logo.svg/240px-Nagad_Logo.svg.png",
+      "accountLabel": "Nagad নম্বর",
+      "accountPlaceholder": "01XXXXXXXXX",
+      "minWithdraw": 5,
+      "maxWithdraw": 0,
+      "processingTime": "১-৩ কার্যদিবস",
+      "instructions": "Personal Nagad নম্বরে পেমেন্ট পাঠানো হবে।",
+      "active": true,
+      "order": 2
+    },
+    "rocket": {
+      "key": "rocket",
+      "name": "Rocket",
+      "iconUrl": "",
+      "accountLabel": "Rocket নম্বর",
+      "accountPlaceholder": "01XXXXXXXXX",
+      "minWithdraw": 5,
+      "maxWithdraw": 0,
+      "processingTime": "১-৩ কার্যদিবস",
+      "instructions": "Personal Rocket নম্বরে পেমেন্ট পাঠানো হবে।",
+      "active": true,
+      "order": 3
+    }
+  },
+
+  "tasks": {
+    "task_001": {
+      "title": "আমাদের Telegram চ্যানেলে যোগ দিন",
+      "type": "telegram",
+      "url": "https://t.me/zerox6t9",
+      "reward": 0.05,
+      "active": true,
+      "createdAt": 1700000000000
+    },
+    "task_002": {
+      "title": "Earn BD YouTube চ্যানেল সাবস্ক্রাইব করুন",
+      "type": "youtube",
+      "url": "https://youtube.com",
+      "reward": 0.10,
+      "active": true,
+      "createdAt": 1700000001000
+    },
+    "task_003": {
+      "title": "আমাদের Facebook পেইজ লাইক করুন",
+      "type": "facebook",
+      "url": "https://facebook.com",
+      "reward": 0.05,
+      "active": true,
+      "createdAt": 1700000002000
+    }
+  },
+
+  "notifications": {
+    "notif_001": {
+      "title": "🎉 Earn BD-তে স্বাগতম!",
+      "body": "প্রতিদিন বিজ্ঞাপন দেখুন, চেক-ইন করুন এবং বন্ধুদের রেফার করে আয় করুন। আপনার আয় $5 হলে উইথড্র করতে পারবেন।",
+      "showBanner": true,
+      "sentBy": "admin",
+      "timestamp": 1700000000000
+    }
+  },
+
+  "officers": {}
+}
